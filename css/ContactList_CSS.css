@@ -1,0 +1,186 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+	background:url(../images/tool/BG_mainWindow.jpg);
+}
+
+body{
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	width:270px;
+	height:100%;
+/*	margin: 0 auto;
+	padding-top: 20 px;*/
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+ul.container{
+	/* The topmost UL */
+	width:200px;
+	margin-left:5px;
+	marigin-right:20px;
+}
+
+li{
+	list-style:none;
+	text-align:left;
+}
+
+li.menu{
+	/* The main list elements */
+/*	padding:5px 0;*/
+	width:100%;
+}
+
+
+    /* The section titles 菜单项*/
+li.button a{
+	/* The section titles */
+	display:block;
+	font-family:BPreplay,Arial,Helvetica,sans-serif;
+	font-size:21px;
+	height:34px;
+	overflow:hidden;
+	padding-top:2px;
+	position:relative;
+	text-decoration:none;
+	width:210px;
+	margin-top:2px;
+}
+
+li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+}
+
+li.button a span{
+	/* This span acts as the right part of the section's background */
+	background:url(../images/icons/red_heart.png);
+	border:none;
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+/* Setting up different styles for each section color */
+
+li.button a.green{
+	background:url(../images/icons/Btn_Contact.jpg) repeat-x top left;
+    color:#074384;
+    border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	}
+
+
+
+
+/* The hover effects */
+
+li.button a:hover{ background-position:bottom left;}
+li.button a:hover span{ background-position:bottom right;}
+
+.dropdown{
+	/* The expandable lists */
+	display:none;
+/*	padding-top:5px;*/
+	width:100%;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+
+
+
+a:hover{
+
+}
+
+#main{
+	width:280px;
+	float:right;
+	overflow:visible;
+	position:absolute;
+
+	/*z-index:1px;*/
+	}
+	
+.ContactList{
+	overflow:auto;
+	height:450px;
+	float:left;
+	width:270px;
+/*	margin-top:20px;*/
+	position:absolute;
+	
+/*	z-index:100px;background:#FFF;*/
+/*	background:#D1F2FC;*/
+}	
+
+.ContactList .ContactImage{
+	width:40px;
+	height:40px;
+	margin-top:5px;
+	}
+	
+.ContactList .ContactName{
+	
+	}
+.ContactList  .OneContact{
+	width:210px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	}
+	
+.ContactList  .Class{
+
+	}
+.ContactList .Contact{
+	margin-left:20px;
+	} 
+.ContactList .ContactMenu{
+	width:100px;
+	height:150px;
+	background:#C4EFF7;
+	display:block;
+	overflow:hidden;	
+	}
+
+.ContactList .ContactDetail{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:bold;
+	margin-left:20px;
+	text-decoration:none;
+	color:#000;
+	}
+.ContactList .ContactDetail:hover{
+	text-decoration:none;
+	color:#1E07E9;
+	margin-left:19px;
+	text-shadow:#BFFFFF;
+	}
+.ContactList .OneContact .funtionOfContact img{
+	width:20px;
+	height:20px;
+	float:right;
+	cursor:pointer;
+	
+	}	

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul ,li { margin:0px; 
+padding:0px; 
+list-style:none; 
+} 
+li { float:left; 
+background-color:#66CC00; 
+margin-right:2px; //这个是设置标签之间的间距 
+padding:5px; 
+border:1px solid white; 
+height:20px; 
+color:white; 
+
+} 
+.listli { background-color:#663333; 
+border:1px solid #663333; 
+
+} 
+div { clear:left; 
+width:300px; 
+height:100px; 
+background-color:#663333; 
+border-top:0px; 
+color:white; 
+display:none; 
+} 
+
+.divarea { display:block; } 

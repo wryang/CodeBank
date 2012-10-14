@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+.textarea{
+	width:500px;
+	height:100px;
+	
+}
+
+.submitButton{
+	
+}
+
+body.block{
+	width:500px;
+}
+
+.userName{
+	color: #069;
+}
+
+.userImage{
+	width:100px;
+	height:100px;
+	
+}
+
+.freshContent{
+	
+}
+
+.freshTime{
+	color:#CCC;
+}
+
+
+.freshAccessory{
+	width:200px;
+	height:300px;
+}
+
+.replyBlock{
+	background:#edf9f9;
+	display:none;
+	
+}
+
+.replyItem{
+	font-size:13px;
+}
+
+.littleImage{
+	width:47px;
+	height:47px;
+	border:none;
+}
+
+.adjustReply{
+	font-size:13px;
+}
+
+#myReply{
+	display:none;
+}
+#mySubmit{
+}

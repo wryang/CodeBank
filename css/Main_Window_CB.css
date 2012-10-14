@@ -1,0 +1,280 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+
+}
+
+html{
+
+}
+
+body{
+/*	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;*/
+	position:relative;
+	width:350px;
+	height:100%;
+	margin: 0 auto;
+	padding-top: 20 px;
+
+}
+
+p{
+	white-space: pre-wrap;
+	}
+#mainTop{
+	background:url(../images/icons/top.png) no-repeat;
+	}
+#WinFunction img{
+	float:right;
+	width:20px;
+	height:20px;
+	}
+#Top{
+/*	background:url(../images/icons/BG_Top.gif) no-repeat;*/
+	width:100%;
+	height:80px;
+	margin-left:10px;
+
+	}
+#userImg{
+	cursor:pointer;
+	width:60px;
+	height:60px;
+	float:left;
+	border:2px solid #D1F2FC;
+	}
+#userName{
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	}
+.personalFun a{
+	font-size:12px;
+	margin-left:275px;
+	text-decoration:none;
+	color:#000;
+	}
+	
+li{
+	list-style:none;
+}
+
+#mainWindow{
+	/*background:#D1F2FC; 	)*/
+	background:url(../images/tool/BG_mainwindow.jpg) ;
+	width:350px;
+	height:100%;
+	min-height:650px;
+	min-width:300px;
+	border: 2px solid #D1F2FC;
+    border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	}
+#state_module{
+/*	margin-left:10px;*/
+	width:350px;
+	height:170px;
+	position:absolute;
+	overflow:hidden;
+	z-index:1;
+	margin-top:400px;
+	}
+#stateModuel{
+	border:2px solid #8000FF;
+/*	margin-top:10px;*/
+	padding:2px;
+    border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	width:280px;
+	height:130px;
+	background:#D1F2FC; 
+	position:absolute;
+	z-index:1;
+	left:-300px;
+	display:block;
+	filter:alpha(opacity=80);    /* ie  */
+	-moz-opacity:0.8;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.8;    /* for really really old safari */  
+	opacity: 0.8;    /* css standard, currently it works in most modern browsers like firefox,  */
+	}
+#State{
+	font-size:18px;	
+	font-size:12px;
+	font-family:Arial,Helvetica,sans-serif;
+	outline:none;
+	border:none;
+	width:240px;
+	height:130px;
+	background:#D1F2FC; 
+	position:absolute;
+	z-index:3;
+	display:block;
+	filter:alpha(opacity=80);    /* ie  */
+	-moz-opacity:0.8;    /* old mozilla browser like netscape  */
+	-khtml-opacity: 0.8;    /* for really really old safari */  
+	opacity: 0.8;    /* css standard, currently it works in most modern browsers like firefox,  */
+/*	color:#333;
+	border:2px solid #8000FF;
+	margin-top:10px;
+	padding:2px;
+    border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	width:260px;
+	height:80px;*/
+}
+#state_img{
+	position:absolute;
+	z-index:1;
+	margin-top:120px;
+	cursor:pointer;
+}
+
+
+#state_submit{
+	width:80px;
+	height:30px;
+    left:270px;
+	margin-top:140px;
+	position:absolute;
+	cursor:pointer;
+/*	margin-right:15px;*/
+	}
+.search{
+	border: 5px solid #e0e0e0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left:20px;
+    width:210px;
+	height:20px;
+	}	
+#m_submit{
+	margin-left:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-size:16px;
+	outline:none;
+	color:#000;
+	} 
+#m_submit:hover{
+	text-decoration:underline;
+	}
+
+	
+.stateTextarea-label{
+	position: absolute;
+	margin: 9px 9px 9px 12px;
+	margin-top:12px;
+}
+.search-label{
+	position: absolute;
+	margin-top:4px;
+	margin-left:25px;
+	font-size:12px;
+	}
+#search-label-text{
+
+	}
+#float_right{
+	margin-left:20px;
+	margin-top:40px;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+
+
+
+a:hover{
+	text-decoration:underline;
+}
+
+#main{
+	width:350px;
+	float:right;
+	overflow:visible;
+	position:absolute;
+	/*z-index:1px;*/
+	}
+	
+/*变更模块*/
+#iframe_change{
+	margin-left:5px;
+	margin-top:15px;
+	height:450px;
+	width:270px;
+/*	border:2px inset #28A4FF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+	}	
+	
+/*主功能界面*/
+.decorate{
+	width:10px;
+	height:400px;
+	background:#000;
+	border:3px solid #000;
+	margin-top:-100px;
+	margin-left:180px;
+	}
+.FunctionMenu{
+	margin-top:20px;
+	margin-left:190px;
+	position:absolute;
+	/*z-index:2px;*/
+	}
+#backMenu{
+	width:220px;  /*aim to make the proclamation show in a more big screen*/
+	height:90px;
+	position:absolute;
+/*	z-index:3px;*/
+	}
+#proclamationMarquee{
+
+	}
+#exampleMenu{
+	margin-top:200px;
+	width:80px;
+	position:absolute;
+/*	z-index:3px;*/
+	}
+	
+            .sweetMenuAnchor{
+				 border-top: 1px solid #ffffff;
+                border-right: 1px solid #ffffff;
+                border-bottom: 1px solid #ffffff;
+				border-top-right-radius: 4px;
+				-moz-border-radius-topright: 4px;
+				border-bottom-right-radius: 4px;
+				-moz-border-radius-bottomright: 4px;
+				
+				font-size: 18px;
+				font-weight:normal;
+				text-align:center;
+			/*	text-transform: uppercase;
+				color: #0071bb;*/
+				font-family: arial;
+				text-decoration: none;
+				background-color:#D1F2FC;;
+				/*opacity: 0.6;*/
+			}
+			
+			.sweetMenuAnchor span{
+			/*	display: block;
+				padding-top: 10px;*/
+				display: block;
+				padding-top: 10px;
+			}

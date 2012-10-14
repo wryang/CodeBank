@@ -1,0 +1,96 @@
+
+ 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Sweet Menu Demo</title>
+		<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.easing.js"></script>
+        <script type="text/javascript" src="../js/jquery.sweet-menu-1.0.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/Main_Window_CB.css">
+ 	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/jquery.tree.js"></script>
+    <script type="text/javascript" src="../js/Main_Window_CB.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('ul.telefilms').tree({default_expanded_paths_string : '0/0/0,0/0/2,0/2/4'});
+      });
+    </script>
+		
+      
+	</head>
+
+	<body>
+<div id="mainWindow">
+  <div id="mainTop">
+    <div id="WinFunction">
+      <img class="WinFunctionBtn" id="closeWinBtn" src="../images/icons/closeBlue.png"/>
+      <img class="WinFunctionBtn" id="minWinBtn" src="../images/icons/minBlue.png"/>
+    </div>
+    <div id="Top">
+    	<img id="userImg" src="../images/selfImages/jia.jpg" width="60" height="100%" title="进入个人主页"/>
+        <p id="userName">佳笑行藏</p>     
+        <div class="personalFun">
+        	<a href="#" id="personalInfo">个人资料</a>
+        </div>
+    </div>
+ </div>   
+        
+
+<div id="main">
+<br/>
+<!--SEARCH START-->
+	<div id="Search-moduel">
+        <div  class="search-label" for="search">
+        	<img src="../images/icons/search_scope.png" width="15px" height="15px">
+			<label id="search-label-text">SEARCH</label>
+        </div>
+    	<input type="text" class="search" />
+        <a class="submit" href="javascript:void(0);" id="m_submit">搜索</a>
+     </div>
+<!--SEARCH END-->
+     <!--DECORATE SPAN START-->
+     
+     <!--DECORATE SPAN END-->
+     
+      <!--FUNCTION MENU START-->
+      <div class="FunctionMenu">
+
+		<div id="backMenu" title="公告">
+            <div class="i" ><div  class="function" width="220px" height="90px"><marquee id="proclamationMarquee"scrolldelay="100" onmouseover="this.stop()" onmouseout="this.start()" align="left"  behavior="scroll" width="120px" scrollamount="2" direction="up" height="120px" style="margin-left:80px;"><p>看，看，你再看看就把你吃掉！</p> </marquee></div>
+			</div>
+        </div>
+		<div id="exampleMenu">
+            <div class="i" id="Fresh" title="新鲜事"><p class="function"></p></div>
+            <div class="i" id="contacts" title="联系人列表"><p class="function"></p></div>
+        </div>
+      </div>
+        <!--FUNCTION MENU END-->
+        
+        <!--CONTACTLIST START-->
+        <div class="change_screen">
+      		<iframe   id="iframe_change" src="ContactList.html"  frameborder= "no"   border= "0 "  scrolling="no" style="z-index:20 ; position:absolute; background:url(../images/tool/BG_mainWindow.jpg);"> 
+            </iframe> 
+        </div>
+		
+        <!--CONTACTLIST END-->
+   </div>
+   
+		<div id="state_module">
+        	<img id="state_img" src="../images/tool/state_for.png" width="260px" height="50px"/>
+            <div id="stateModuel">
+       			<div id="closeState">
+                    <img  id="closeState_img" src="../images/icons/CloseStateBlue.png" width="30px" height="30px" style="float:right;"/>
+                </div>
+              		<textarea id="State" class="stateTextarea" rows="3" cols="30" /></textarea>
+            </div>
+			<img src="../images/tool/Btn_Submittate.png"  id="state_submit"/>
+            <!--<label class="stateTextarea-label" for="stateTextarea">一个月有那么32天不想动···</label>
+              		<textarea id="State" class="stateTextarea" rows="3" cols="30" /></textarea>-->        		
+         </div>
+			 
+   </div>
+   		
+	</body>
+</html>

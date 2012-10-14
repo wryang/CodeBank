@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+td{
+	width:80px;
+	border-color:#bbe0f7;
+	border-width:1px;
+	border-bottom-width:0px;
+	border-style:solid;
+	
+}
+.back{
+	background-image:url(../images/tool/tab.png);
+	background-repeat:no-repeat;
+	background-size:80px; 24px; 
+}

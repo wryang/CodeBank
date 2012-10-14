@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fresh detail</title>
+<script type="text/javascript" src="../js/detailFresh.js"></script>
+<script type="text/javascript" src="../js/jQuery.js"></script>
+<link href="../css/detailFresh_css.css"   rel="stylesheet" type="text/css" />
+</head>
+<body  onunload="closeThisWin()" class="block">
+<div>
+<table>
+<tr>
+<td>
+<div>
+<img src="../images/selfImages/头像.jpg"  alt="selfImage" onclick="" onmouseover=""  class="userImage" align="bottom" />
+</div>
+</td>
+<td>
+<a class="userName">Hy薇</a> </br></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<div>
+<p class="freshContent" onclick="detailWin()">我想吃章鱼小丸子啊，还有鸡蛋仔~~~嘻....~</p></br>
+<img src="../images/picture/xing.jpg" alt="check the picture" class="freshAccessory" />
+<table><tr><td width="150"><p class="freshTime" align="left">4小时前</p></td><td align="right"><a href="#" class="adjustReply" onclick="replyAdjust()">展开回复</a></td></tr></table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div class="replyBlock">
+<div>
+<table><tr><td>
+<a href="#"><img src="../images/selfImages/boy.jpg"  alt="little selfImage" class="littleImage"/></a></td>
+<td><p class="replyItem"><a href="#">Valley</a>&nbsp;</br><span>我只会说，我也是。。。</span><a href="#">回复</a></p></td></tr></table>
+</div>
+
+
+<div>
+<table><tr><td>
+<a href="#"><img src="../images/selfImages/maoshu.jpg"  alt="little selfImage" class="littleImage"/></a></td>
+<td><p class="replyItem"><a href="#">Justin</a>&nbsp;</br><span>我么有吃过，呜呜呜，坑爹啊，下次我也要买来吃，反正我不怕长胖呀，哈哈哈。。。</span><a href="#">回复</a></p></td></tr></table>
+</div>
+
+<div id="myReply">
+<table><tr><td>
+<a href="#"><img src="../images/selfImages/maoshu.jpg"  alt="little selfImage" class="littleImage"/></a></td>
+<td><p class="replyItem"><a href="#">Justin</a>&nbsp;</br><span id="mySubmit"></span><a href="#">回复</a></p></td></tr></table>
+</div>
+</div>
+
+<p id="tail"></p>
+<textarea  class="textarea" name="replyArea" ></textarea></br>
+<p align="right"><button class="submitButton" type="submit" value="发布" onclick="submit()"  />
+    发布</button></p>
+</body>
+</html>
