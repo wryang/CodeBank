@@ -8,6 +8,26 @@ CodeBank
 
 5个系统的实现原型已经给出,只要求实现异构系统之间的交互,不要求对系统的实现细节进行了解或修改 ;
 
+![Add Library Project](http://dl.dropbox.com/u/91146904/weibao/SI_Architecture.png)
+
+简单实现一次团购商品从发布、购 买到领取的整个业务流程:
+
+发布团购
+
+![Distribution](http://dl.dropbox.com/u/91146904/weibao/SI_Distribution.png)
+
+查询团购
+
+![Check out](http://dl.dropbox.com/u/91146904/weibao/SI_Check.png)
+
+购买团购
+
+![Purchase](http://dl.dropbox.com/u/91146904/weibao/SI_Purchase.png)
+
+领取团购商品
+
+![Get Stuff](http://dl.dropbox.com/u/91146904/weibao/SI_Get.png)
+
 - 银行系统
 
 银行系统使用 C++实现,对应的静态链接库前缀为 BankSystem1,头文件为 BankSystem.h。
@@ -117,7 +137,9 @@ boolean submitPurchase(String itemId, String bankAccount, String password, Strin
 
 最后通过GroupPurchaseWeb.launch(gpms);即可启动团购网站系统
 
+![Start up](http://dl.dropbox.com/u/91146904/weibao/SI_Startup.png)
 
+![Purchase](http://dl.dropbox.com/u/91146904/weibao/SI_Purchase_View.png)
 
 
 
